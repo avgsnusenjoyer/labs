@@ -1,4 +1,7 @@
 import unittest
+import sys
+import os
+sys.path.append(os.path.abspath('../src'))
 from main9 import max_wire_length
 
 class TestMaxWireLength(unittest.TestCase):
