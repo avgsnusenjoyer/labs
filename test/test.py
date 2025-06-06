@@ -1,4 +1,8 @@
 import networkx as nx
+import unittest
+import sys
+import os
+sys.path.append(os.path.abspath('../src'))
 from main import build_graph, compute_mst_and_stats
 
 def test_mst_properties():
