@@ -1,4 +1,7 @@
 import unittest
+import sys
+import os
+sys.path.append(os.path.abspath('../src'))
 from main import boyer_moore_search
 
 class TestBoyerMooreSearch(unittest.TestCase):
